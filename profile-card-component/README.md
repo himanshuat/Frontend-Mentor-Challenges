@@ -25,8 +25,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-  [Solution](https://github.com/himanshuat/Frontend-Mentor-Challenges/tree/main/profile-card-component)
+-  [Live Site](https://himanshuat.github.io/Frontend-Mentor-Challenges/profile-card-component/)
 
 ## My process
 
@@ -52,6 +52,5 @@ I learned how to apply multiple background images to an element.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Name - Tegyalwar Himanshu
+- Frontend Mentor Profile - [@himanshuat](https://www.frontendmentor.io/profile/himanshuat)
