@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  background-color: #e5eff5;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 20px;
+  box-shadow: 0 0 10px -1px #98a6bd;
+  grid-template-areas: "join join" "signup signup" "about about";
+  margin: 5vh auto;
+}
+
+#join {
+  grid-area: join;
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+  padding: 1.3em;
+}
+
+#join h2, #join h3 {
+  margin-bottom: 15px;
+}
+
+#join h2 {
+  color: #2ab2af;
+}
+
+#join h3 {
+  color: #c0df34;
+}
+
+#join p {
+  color: #98a6bd;
+  font-size: .9em;
+  line-height: 1.8;
+}
+
+.bottom {
+  padding: 1.8em;
+  color: #e5eff5;
+}
+
+#signup {
+  grid-area: signup;
+  background-color: #2ab2af;
+}
+
+#signup h3, #signup p {
+  margin-bottom: 15px;
+}
+
+#signup .price {
+  font-size: 2em;
+}
+
+#signup .period {
+  position: relative;
+  top: -5px;
+  font-size: .9em;
+  opacity: .75;
+}
+
+#signup p {
+  font-size: .9em;
+}
+
+#signup .button {
+  display: block;
+  text-align: center;
+  padding: 1em;
+  color: #e5eff5;
+  font-weight: 700;
+  margin-top: 1.8em;
+  background-color: #c0df34;
+  box-shadow: 0 0 5px 2px #98a6bd;
+  transition: all .3s;
+  border-radius: 5px;
+}
+
+#signup .button:hover {
+  background-color: #c0d934;
+  box-shadow: 0 0 5px -1px #e5eff5;
+}
+
+#about {
+  grid-area: about;
+  background-color: #2ab2af;
+  opacity: .85;
+  border-radius: 0 0 5px 5px;
+}
+
+#about h3 {
+  margin-bottom: 15px;
+}
+
+#about #join {
+  padding: 1.8em;
+}
+
+#about li {
+  margin-top: 5px;
+  font-size: .9em;
+}
+
+@media (min-width: 550px) {
+  main {
+    width: 65vw;
+  }
+}
+
+@media (min-width: 780px) {
+  main {
+    width: 575px;
+    grid-template-rows: 4fr 5fr;
+    grid-template-areas: "join join" "signup about";
+  }
+  #join {
+    padding: 1.8em;
+  }
+  .bottom {
+    padding: 2em;
+  }
+  #signup {
+    border-radius: 0 0 0 5px;
+  }
+  #about {
+    border-radius: 0 0 5px 0;
+  }
+}
