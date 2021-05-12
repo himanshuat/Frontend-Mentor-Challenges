@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://github.com/himanshuat/Frontend-Mentor-Challenges/tree/main/single-price-grid-component)
+- [Live Site](https://himanshuat.github.io/Frontend-Mentor-Challenges/single-price-grid-component/)
 
 ## My process
 
