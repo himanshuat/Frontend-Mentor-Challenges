@@ -8,7 +8,7 @@
 
 body {
   min-height: 100vh;
-  background: url(/images/bg-mobile.svg) no-repeat top center/contain;
+  background: url(../images/bg-mobile.svg) no-repeat top center/contain;
   background-color: #674BAF;
   font-family: "Open Sans", sans-serif;
 }
@@ -90,7 +90,7 @@ main img {
 @media (min-width: 900px) {
   body {
     min-height: 100vh;
-    background: url(/images/bg-desktop.svg) no-repeat top center/contain;
+    background: url(../images/bg-desktop.svg) no-repeat top center/contain;
     background-color: #674BAF;
     font-family: "Open Sans", sans-serif;
   }
