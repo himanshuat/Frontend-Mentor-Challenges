@@ -95,7 +95,7 @@ main img {
     font-family: "Open Sans", sans-serif;
   }
   header img {
-    width: 13em;
+    width: 14em;
     margin: 3em 0 0 3em;
   }
   main {
@@ -110,10 +110,10 @@ main img {
   }
   .intro-text {
     text-align: left;
-    width: 45%;
+    width: 40%;
   }
   .intro-text h1 {
-    font-size: 2em;
+    font-size: 2.3em;
   }
   .intro-text a {
     width: auto;
