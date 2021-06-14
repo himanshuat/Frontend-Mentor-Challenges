@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background: url(/images/bg-mobile.svg) no-repeat top center/contain;
+  background-color: #674BAF;
+  font-family: "Open Sans", sans-serif;
+}
+
+header img {
+  width: 8em;
+  margin: 2em 0 0 2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+main .intro-img {
+  margin-bottom: 2.5em;
+}
+
+main img {
+  width: 100%;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.intro-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+
+.intro-text a {
+  display: inline-block;
+  width: 60%;
+  color: #674BAF;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 6px #131313;
+  margin: 3em auto;
+}
+
+.intro-text a:hover {
+  background-color: #E882E8;
+  color: white;
+}
+
+.social {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.social .bi {
+  padding: 8px 11px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.social .bi:hover {
+  color: #E882E8;
+  border-color: #E882E8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #E882E8;
+}
+
+@media (min-width: 900px) {
+  body {
+    min-height: 100vh;
+    background: url(/images/bg-desktop.svg) no-repeat top center/contain;
+    background-color: #674BAF;
+    font-family: "Open Sans", sans-serif;
+  }
+  header img {
+    width: 13em;
+    margin: 3em 0 0 3em;
+  }
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    margin: 3em;
+  }
+  main .intro-img {
+    margin-bottom: 0;
+  }
+  .intro-text {
+    text-align: left;
+    width: 45%;
+  }
+  .intro-text h1 {
+    font-size: 2em;
+  }
+  .intro-text a {
+    width: auto;
+  }
+  .social {
+    justify-content: flex-end;
+    position: relative;
+    right: 3em;
+  }
+}
