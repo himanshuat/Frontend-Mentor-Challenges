@@ -1,0 +1,163 @@
+:root {
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    outline: none;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    font-size: 20px;
+    color: var(--very-dark-blue);
+    background-color: #fcfcfc;
+}
+
+main {
+    width: min(700px, 85vw);
+    margin: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: .7rem;
+}
+
+.launching {
+    font-size: 2.5rem;
+    margin: .7rem;
+    color: var(--gray);
+}
+
+.launching span {
+    color: var(--very-dark-blue);
+    font-weight: 800;
+}
+
+form {
+    position: relative;
+    margin: 1.2rem auto;
+    width: 90%;
+    display: flex;
+    gap: 1rem;
+}
+
+label {
+    color: var(--light-red);
+    font-weight: 600;
+    position: absolute;
+    bottom: -20px;
+    left: 25px;
+    font-size: .75rem;
+    text-align: left;
+    width: 50%;
+}
+
+input[type='text'] {
+    text-align: left;
+    font-size: 1rem;
+    padding: .75rem 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--gray);
+    flex-grow: 1;
+}
+
+input[type='text']:focus {
+    box-shadow: 0 0 0 1px var(--gray);
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    padding: .75rem 1.75rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    box-shadow: 0 0 5px 3px var(--pale-blue);
+}
+
+input[type='submit']:hover {
+    box-shadow: 0 0 0 3px var(--pale-blue);
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+}
+
+.footer {
+    padding: 2rem .5rem;
+    color: var(--white);
+    background-color: var(--very-dark-blue);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer p>a {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.social {
+    margin-top: 1rem;
+}
+
+.social a {
+    margin: .5em;
+    font-size: 1.25em;
+    color: var(--white);
+}
+
+.social a:hover {
+    color: var(--blue);
+}
+
+i {
+    transition: all .2s ease-out;
+}
+
+.social a:hover i {
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+    * {
+        letter-spacing: 0.5px;
+    }
+
+    main {
+        font-size: 18px;
+        padding: 1rem;
+    }
+
+    .launching {
+        font-size: 1.75rem;
+        margin: .7rem;
+        color: var(--gray);
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+    }
+}
